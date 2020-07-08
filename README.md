@@ -1,3 +1,6 @@
+## THIS WEBSITE IS CURRENTLY BEING CREATED. CHECK BACK SOON TO SEE THE FINISHED PRODUCT.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

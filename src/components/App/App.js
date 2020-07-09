@@ -1,6 +1,7 @@
 import React from 'react';
 import Intro from '../Intro/Intro';
 import Projects from '../Projects/Projects';
+import Skills from '../Skills/Skills';
 import './App.css';
 
 const App = () => {
@@ -10,7 +11,7 @@ const App = () => {
       <section>
         <Intro />
         <Projects />
-        {/* <Skills /> */}
+        <Skills />
         {/* <Experince /> */}
         {/* <Education /> */}
         {/* <Extra /> */}

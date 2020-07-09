@@ -1,5 +1,6 @@
 import React from 'react';
 import Intro from '../Intro/Intro';
+import Projects from '../Projects/Projects';
 import './App.css';
 
 const App = () => {
@@ -8,7 +9,7 @@ const App = () => {
       {/* <Navbar /> */}
       <section>
         <Intro />
-        {/* <Projects /> */}
+        <Projects />
         {/* <Skills /> */}
         {/* <Experince /> */}
         {/* <Education /> */}

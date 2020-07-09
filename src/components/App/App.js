@@ -1,4 +1,5 @@
 import React from 'react';
+import Intro from '../Intro/Intro';
 import './App.css';
 
 const App = () => {
@@ -6,7 +7,7 @@ const App = () => {
     <main>
       {/* <Navbar /> */}
       <section>
-        {/* <Intro /> */}
+        <Intro />
         {/* <Projects /> */}
         {/* <Skills /> */}
         {/* <Experince /> */}

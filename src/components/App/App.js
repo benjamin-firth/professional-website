@@ -4,6 +4,7 @@ import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
 import Experience from '../Experience/Experience';
 import Education from '../Education/Education';
+import Extra from '../Extra/Extra';
 
 import './App.css';
 
@@ -17,7 +18,7 @@ const App = () => {
         <Skills />
         <Experience />
         <Education />
-        {/* <Extra /> */}
+        <Extra />
         {/* <Links /> */}
       </section>
     </main>

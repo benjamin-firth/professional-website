@@ -3,6 +3,8 @@ import Intro from '../Intro/Intro';
 import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
 import Experience from '../Experience/Experience';
+import Education from '../Education/Education';
+
 import './App.css';
 
 const App = () => {
@@ -14,7 +16,7 @@ const App = () => {
         <Projects />
         <Skills />
         <Experience />
-        {/* <Education /> */}
+        <Education />
         {/* <Extra /> */}
         {/* <Links /> */}
       </section>

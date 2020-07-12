@@ -1,4 +1,6 @@
 import React from 'react';
+import styled from 'styled-components';
+
 import Intro from '../Intro/Intro';
 import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
@@ -6,11 +8,9 @@ import Experience from '../Experience/Experience';
 import Education from '../Education/Education';
 import Extra from '../Extra/Extra';
 
-import './App.css';
-
 const App = () => {
   return (
-    <main>
+    <StyledApp>
       {/* <Navbar /> */}
       <section>
         <Intro />
@@ -21,8 +21,13 @@ const App = () => {
         <Extra />
         {/* <Links /> */}
       </section>
-    </main>
+    </StyledApp>
   );
 };
+
+const StyledApp = styled.main`
+  background-color: grey;
+
+`;
 
 export default App;

@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components';
 
 const Skills = () => {
   return (
@@ -11,12 +12,12 @@ const Skills = () => {
         <li>Redux</li>
         <li>HTML5 / CSS3</li>
       </ul>
-      <ul>
+      <StyledUL>
         <li>Sass / SCSS</li>
         <li>jQuery</li>
         <li>Test Driven Development (TDD)</li>
         <li>Jest / Enzyme</li>
-      </ul>
+      </StyledUL>
       <ul>
         <li>Node.js / Express</li>
         <li>GraphQL</li>
@@ -32,5 +33,9 @@ const Skills = () => {
     </section>
   );
 };
+
+const StyledUL = styled.ul`
+  color: #FFF;
+`;
 
 export default Skills;

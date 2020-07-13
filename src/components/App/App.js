@@ -26,7 +26,6 @@ const App = () => {
 };
 
 const StyledApp = styled.main`
-  background-color: grey;
 
 `;
 

@@ -53,7 +53,6 @@ const StyledSkillContainer = styled.section`
 
 const StyledUL = styled.ul`
   font-size: 1.1em;
-  // padding: 20px;
 `;
 
 export default Skills;

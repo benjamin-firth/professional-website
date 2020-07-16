@@ -9,6 +9,10 @@ import Education from '../Education/Education';
 import Extra from '../Extra/Extra';
 
 const App = () => {
+  const consoleStyle = 'background: darkslateblue; color: darkseagreen; padding: 40px; font-size: 20px';
+
+  console.log("%cWelcome! My name is Benjamin and I'd love to work with you!", `${consoleStyle}`);
+
   return (
     <StyledApp>
       {/* <Navbar /> */}

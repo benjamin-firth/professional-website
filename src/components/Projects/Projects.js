@@ -33,6 +33,7 @@ const StyledProjects = styled.section`
 const StyledProjectContainer = styled.section`
   display: flex;
   justify-content: space-around;
+  margin-bottom: 100px;
 `;
 
 const StyledProject = styled.article`

@@ -3,39 +3,57 @@ import styled from 'styled-components';
 
 const Skills = () => {
   return (
-    <section>
+    <StyledSkills>
       <h2>SKILLS</h2>
       {/* MAP OVER ARRAY OF SKILLS INSTEAD OF WRITING ALL OUT */}
-      <ul>
-        <li>Javascript</li>
-        <li>React.js</li>
-        <li>Redux</li>
-        <li>HTML5 / CSS3</li>
-      </ul>
-      <StyledUL>
-        <li>Sass / SCSS</li>
-        <li>jQuery</li>
-        <li>Test Driven Development (TDD)</li>
-        <li>Jest / Enzyme</li>
-      </StyledUL>
-      <ul>
-        <li>Node.js / Express</li>
-        <li>GraphQL</li>
-        <li>REST APIs</li>
-        <li>Agile</li>
-      </ul>
-      <ul>
-        <li>Git Workflow</li>
-        <li>GIS</li>
-        <li>ESRI Suite</li>
-        <li>E-Commerce</li>
-      </ul>
-    </section>
+      <StyledSkillContainer>
+        <StyledUL>
+          <li>Javascript</li>
+          <li>React.js</li>
+          <li>Redux</li>
+          <li>HTML5 / CSS3</li>
+        </StyledUL>
+        <StyledUL>
+          <li>Sass / SCSS</li>
+          <li>jQuery</li>
+          <li>Test Driven Development (TDD)</li>
+          <li>Jest / Enzyme</li>
+        </StyledUL>
+        <StyledUL>
+          <li>Node.js / Express</li>
+          <li>GraphQL</li>
+          <li>REST APIs</li>
+          <li>Agile</li>
+        </StyledUL>
+        <StyledUL>
+          <li>Git Workflow</li>
+          <li>GIS</li>
+          <li>ESRI Suite</li>
+          <li>E-Commerce</li>
+        </StyledUL>
+      </StyledSkillContainer>
+    </StyledSkills>
   );
 };
 
+const StyledSkills = styled.section`
+  h2 {
+    font-size: 1.8em;
+    margin: 70px;
+    margin-bottom: 50px;
+  }
+`;
+
+const StyledSkillContainer = styled.section`
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  padding: 0px 10px;
+`;
+
 const StyledUL = styled.ul`
-  color: #FFF;
+  font-size: 1.1em;
+  // padding: 20px;
 `;
 
 export default Skills;

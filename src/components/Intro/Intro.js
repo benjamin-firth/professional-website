@@ -21,12 +21,15 @@ const StyledIntro = styled.section`
   display: flex;
   flex-direction: column;
   height: 100vh;
-  // justify-content: center;
   padding: 10px 75px 10px 75px;
 
   h1 {
-    font-size: 2em;
+    font-size: 2.5em;
     margin-top: 80px;
+  }
+
+  h2 {
+    font-size: 1.8em;
   }
 
   p {

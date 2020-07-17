@@ -30,8 +30,12 @@ const StyledEducation = styled.section`
 const StyledSchool = styled.article`
   margin-bottom: 50px;
 
+  h3 {
+    font-size: 1.3em;
+  }
+
   p {
-    font-size: 1.1em;
+    font-size: 1.2em;
   }
 
   .school-title {

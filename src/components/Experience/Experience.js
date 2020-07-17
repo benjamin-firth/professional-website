@@ -47,11 +47,12 @@ const StyledExperience = styled.article`
   margin-bottom: 50px;
 
   h3 {
+    font-size: 1.3em;
     text-align: center;
   }
 
   p {
-    font-size: 1.1em;
+    font-size: 1.2em;
   }
 `;
 

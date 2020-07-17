@@ -28,7 +28,7 @@ const Skills = () => {
         <StyledUL>
           <li>Git Workflow</li>
           <li>GIS</li>
-          <li>ESRI Suite</li>
+          <li>Styled-Components</li>
           <li>E-Commerce</li>
         </StyledUL>
       </StyledSkillContainer>
@@ -52,7 +52,7 @@ const StyledSkillContainer = styled.section`
 `;
 
 const StyledUL = styled.ul`
-  font-size: 1.1em;
+  font-size: 1.2em;
 `;
 
 export default Skills;

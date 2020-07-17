@@ -1,14 +1,50 @@
 import React from 'react';
+import styled from 'styled-components';
 
 const Extra = () => {
   return (
-    <section>
+    <StyledExtra>
       <h2>FUN EXTRA INFORMATION!</h2>
       <ul>
-        <li>I'm an avid rock climber. You can follow my adventures HERE!</li>
+        <li>I'm an avid rock climber. You can follow my adventures <a 
+          target="_blank"
+          rel="noopener noreferrer"  
+          href="https://www.instagram.com/truckbedboulderers/?hl=en"><strong>HERE!
+        </strong></a></li>
+        <li>If you like listening to me ramble about software, you can check out my blog posts <a 
+          target="_blank"
+          rel="noopener noreferrer"  
+          href="https://medium.com/@bfirth93"><strong>here.
+        </strong></a></li>
       </ul>
-    </section>
+    </StyledExtra>
   );
 };
+
+const StyledExtra = styled.section`
+  background-color: #F9A986;
+  padding: 70px;
+
+  h2 {
+    font-size: 1.8em;
+    margin-bottom: 50px;
+  }
+
+  li {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+  }
+
+  a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+  }
+
+  a:hover {
+    font-size: 1.4em;
+  }
+`;
 
 export default Extra;

@@ -52,7 +52,7 @@ const StyledSkillContainer = styled.section`
 `;
 
 const StyledUL = styled.ul`
-  font-size: 1.1em;
+  font-size: 1.2em;
 `;
 
 export default Skills;

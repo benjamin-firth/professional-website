@@ -28,7 +28,6 @@ const Intro = () => {
     return cleanup;
   });
 
-  console.log(hasScrolled);
   return (
     <StyledIntro>
       <h1>Welcome, my name is Benjamin Firth.</h1>

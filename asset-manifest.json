@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/professional-website/static/css/main.523784bf.chunk.css",
+    "main.js": "/professional-website/static/js/main.38c64d40.chunk.js",
+    "main.js.map": "/professional-website/static/js/main.38c64d40.chunk.js.map",
+    "runtime-main.js": "/professional-website/static/js/runtime-main.f48e11ee.js",
+    "runtime-main.js.map": "/professional-website/static/js/runtime-main.f48e11ee.js.map",
+    "static/js/2.70893d3b.chunk.js": "/professional-website/static/js/2.70893d3b.chunk.js",
+    "static/js/2.70893d3b.chunk.js.map": "/professional-website/static/js/2.70893d3b.chunk.js.map",
+    "index.html": "/professional-website/index.html",
+    "precache-manifest.623a9462f63a024a3b838c18b9f15875.js": "/professional-website/precache-manifest.623a9462f63a024a3b838c18b9f15875.js",
+    "service-worker.js": "/professional-website/service-worker.js",
+    "static/css/main.523784bf.chunk.css.map": "/professional-website/static/css/main.523784bf.chunk.css.map",
+    "static/js/2.70893d3b.chunk.js.LICENSE.txt": "/professional-website/static/js/2.70893d3b.chunk.js.LICENSE.txt",
+    "static/media/BenjaminFirth_DevResume.pdf": "/professional-website/static/media/BenjaminFirth_DevResume.b3cb6921.pdf",
+    "static/media/Mt_Rainier_Trails.jpg": "/professional-website/static/media/Mt_Rainier_Trails.a24bf433.jpg",
+    "static/media/iCan2ScreenShot.png": "/professional-website/static/media/iCan2ScreenShot.4714a5a2.png",
+    "static/media/mountain-background.jpg": "/professional-website/static/media/mountain-background.f7a25282.jpg",
+    "static/media/palettePickerScreenShot.png": "/professional-website/static/media/palettePickerScreenShot.17adc748.png",
+    "static/media/snackMackScreenShot.png": "/professional-website/static/media/snackMackScreenShot.a28244ae.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f48e11ee.js",
+    "static/js/2.70893d3b.chunk.js",
+    "static/css/main.523784bf.chunk.css",
+    "static/js/main.38c64d40.chunk.js"
+  ]
+}

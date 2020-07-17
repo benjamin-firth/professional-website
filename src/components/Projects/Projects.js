@@ -82,7 +82,7 @@ const StyledProject = styled.article`
   }
 
   &:hover {
-    background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(${({ img }) => img});
+    background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(${({ img }) => img});
     transform: scale(1.2);
 
     h3 {

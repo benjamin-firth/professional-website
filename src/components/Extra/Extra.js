@@ -6,8 +6,16 @@ const Extra = () => {
     <StyledExtra>
       <h2>FUN EXTRA INFORMATION!</h2>
       <ul>
-        <li>I'm an avid rock climber. You can follow my adventures <strong>HERE!</strong></li>
-        <li>If you like listening to me ramble about software, you can check out my blog posts <strong>here.</strong></li>
+        <li>I'm an avid rock climber. You can follow my adventures <a 
+          target="_blank"
+          rel="noopener noreferrer"  
+          href="https://www.instagram.com/truckbedboulderers/?hl=en"><strong>HERE!
+        </strong></a></li>
+        <li>If you like listening to me ramble about software, you can check out my blog posts <a 
+          target="_blank"
+          rel="noopener noreferrer"  
+          href="https://medium.com/@bfirth93"><strong>here.
+        </strong></a></li>
       </ul>
     </StyledExtra>
   );
@@ -25,6 +33,17 @@ const StyledExtra = styled.section`
   li {
     font-size: 1.3em;
     margin-bottom: 20px;
+  }
+
+  a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+  }
+
+  a:hover {
+    font-size: 1.4em;
   }
 `;
 

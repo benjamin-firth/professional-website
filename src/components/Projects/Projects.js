@@ -8,7 +8,6 @@ import snackMack from '../../ui/images/snackMackScreenShot.png';
 
 const Projects = name => {
   const createProj = (name, imgUrl) => {
-    console.log(imgUrl);
     return (
       <StyledProject img={imgUrl}>
         <h3>{name}</h3>
@@ -21,19 +20,23 @@ const Projects = name => {
       <h2>PROJECTS</h2>
       <StyledProjectContainer>
         <a 
-          target="_blank" 
+          target="_blank"
+          rel="noopener noreferrer" 
           href="https://github.com/benjamin-firth/ican2_FE">{createProj("Ican2 Mentorship App", iCan2)}
         </a>
         <a 
-          target="_blank" 
+          target="_blank"
+          rel="noopener noreferrer"  
           href="https://github.com/benjamin-firth/colorPickerFrontend">{createProj("colorPicker", palettePicker)}
         </a>
         <a 
-          target="_blank" 
+          target="_blank"
+          rel="noopener noreferrer"  
           href="https://github.com/benjamin-firth/snackMACK">{createProj("snackMACK", snackMack)}
         </a>
         <a 
-          target="_blank" 
+          target="_blank"
+          rel="noopener noreferrer"  
           href={rainierMap} 
           download>{createProj("Example Cartography", rainierMap)}
         </a>

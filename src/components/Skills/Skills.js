@@ -28,7 +28,7 @@ const Skills = () => {
         <StyledUL>
           <li>Git Workflow</li>
           <li>GIS</li>
-          <li>ESRI Suite</li>
+          <li>Styled-Components</li>
           <li>E-Commerce</li>
         </StyledUL>
       </StyledSkillContainer>

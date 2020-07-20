@@ -31,7 +31,7 @@ const StyledExtra = styled.section`
   }
 
   li {
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin-bottom: 20px;
   }
 
@@ -44,6 +44,14 @@ const StyledExtra = styled.section`
 
   a:hover {
     font-size: 1.4em;
+  }
+
+  @media (max-width: 1200px) {
+    padding: 40px;
+
+    h2 {
+      text-align: center;
+    }
   }
 `;
 

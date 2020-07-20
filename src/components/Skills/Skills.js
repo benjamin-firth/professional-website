@@ -49,6 +49,10 @@ const StyledSkillContainer = styled.section`
   justify-content: space-around;
   margin-bottom: 100px;
   padding: 0px 10px;
+
+  @media (max-width: 1200px) {
+    flex-direction: column;
+  }
 `;
 
 const StyledUL = styled.ul`

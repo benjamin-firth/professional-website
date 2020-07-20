@@ -30,7 +30,11 @@ const App = () => {
 };
 
 const StyledApp = styled.main`
-
+  @media (max-width: 1200px) {
+    display: flex:
+    flex-direction: column;
+    width: 100%;
+  }
 `;
 
 export default App;

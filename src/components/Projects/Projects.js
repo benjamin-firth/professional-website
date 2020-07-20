@@ -7,10 +7,10 @@ import palettePicker from '../../ui/images/palettePickerScreenShot.png';
 import snackMack from '../../ui/images/snackMackScreenShot.png';
 
 const Projects = name => {
-  const createProj = (name, imgUrl) => {
+  const createProj = (name, imgUrl, className) => {
     return (
       <StyledProject img={imgUrl}>
-        <h3>{name}</h3>
+        {className ? <h3 className={className}>{name}</h3> : <h3>{name}</h3>}
       </StyledProject>
     );
   };
@@ -22,7 +22,7 @@ const Projects = name => {
         <a 
           target="_blank"
           rel="noopener noreferrer" 
-          href="https://github.com/benjamin-firth/ican2_FE">{createProj("Ican2 Mentorship App", iCan2)}
+          href="https://github.com/benjamin-firth/ican2_FE">{createProj("Ican2", iCan2)}
         </a>
         <a 
           target="_blank"
@@ -38,7 +38,7 @@ const Projects = name => {
           target="_blank"
           rel="noopener noreferrer"  
           href={rainierMap} 
-          download>{createProj("Example Cartography", rainierMap)}
+          download>{createProj("Cartography", rainierMap, "map")}
         </a>
       </StyledProjectContainer>
     </StyledProjects>
@@ -61,6 +61,17 @@ const StyledProjectContainer = styled.section`
   display: flex;
   justify-content: center;
   margin-bottom: 100px;
+
+  @media (max-width: 1200px) {
+    display: flex;
+    flex-flow: wrap;
+    padding: 0px 10px;
+    width: 96%;
+  }
+
+  @media (max-width: 470px) {
+    flex-flow: column;
+  }
 `;
 
 const StyledProject = styled.article`
@@ -88,6 +99,22 @@ const StyledProject = styled.article`
     h3 {
       opacity: 100%;
     }
+  }
+
+  @media (max-width: 1200px) {
+    margin: 0px 10px 40px 10px;
+
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(${({ img }) => img});
+    transform: scale(1.2);
+
+    h3 {
+      font-size: 1.3em;
+      opacity: 100%;
+    }
+  }
+
+  @media (max-width: 470px) {
+    width: 75%;
   }
 `;
 

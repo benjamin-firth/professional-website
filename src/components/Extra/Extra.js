@@ -8,11 +8,13 @@ const Extra = () => {
       <ul>
         <li>I'm an avid rock climber. You can follow my adventures <a 
           target="_blank"
+          alt="Link to my climbing adventures"
           rel="noopener noreferrer"  
           href="https://www.instagram.com/truckbedboulderers/?hl=en"><strong>HERE!
         </strong></a></li>
         <li>If you like listening to me ramble about software, you can check out my blog posts <a 
           target="_blank"
+          alt="Link to my blog"
           rel="noopener noreferrer"  
           href="https://medium.com/@bfirth93"><strong>here.
         </strong></a></li>

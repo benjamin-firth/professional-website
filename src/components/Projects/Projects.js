@@ -21,21 +21,25 @@ const Projects = name => {
       <StyledProjectContainer>
         <a 
           target="_blank"
+          alt="Ican2 Mentorship App link"
           rel="noopener noreferrer" 
           href="https://github.com/benjamin-firth/ican2_FE">{createProj("Ican2", iCan2)}
         </a>
         <a 
           target="_blank"
+          alt="palettePicker link"
           rel="noopener noreferrer"  
           href="https://github.com/benjamin-firth/colorPickerFrontend">{createProj("colorPicker", palettePicker)}
         </a>
         <a 
           target="_blank"
+          alt="snackMACK link"
           rel="noopener noreferrer"  
           href="https://github.com/benjamin-firth/snackMACK">{createProj("snackMACK", snackMack)}
         </a>
         <a 
           target="_blank"
+          alt="download link for cartography I have done"
           rel="noopener noreferrer"  
           href={rainierMap} 
           download>{createProj("Cartography", rainierMap, "map")}

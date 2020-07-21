@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
+import Tooltip from 'react-tooltip-lite';
 import { ChevronsDown } from '@styled-icons/boxicons-solid/ChevronsDown';
 import { EmailOutline } from '@styled-icons/evaicons-outline/EmailOutline';
 import { LinkedinSquare } from '@styled-icons/boxicons-logos/LinkedinSquare';
@@ -35,43 +36,67 @@ const Intro = () => {
         <h2>I am a software engineer.</h2>
         <p>I'm a motivated software engineer with solid knowledge and experience in Javascript, React, HTML/CSS/Sass, Node.js, geospatial and temporal data analysis, TDD, and UX/UI styling. Outside of work I'm an avid rock climber, and can frequently be found wandering around outside in search of a new climbing area. If you'd like to talk to me about web development, land conservation, or climbing don't hesitate to reach out! </p>
         <div>
-          <a 
-            target="_blank"
-            aria-label="Link to my email" 
-            rel="noopener noreferrer"
-            href="mailto:firth.benjamin.a@gmail.com">
-            <EmailOutline 
-              size="50" 
-              title="Email"/>
-          </a>
-          <a 
-            target="_blank"
-            aria-label="Link to my LinkedIn profile" 
-            rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/ben-firth">
-            <LinkedinSquare 
-              size="50" 
-              title="LinkedIn"/>
-          </a>
-          <a 
-            target="_blank"
-            aria-label="Link to my Github" 
-            rel="noopener noreferrer"
-            href="https://github.com/benjamin-firth">
-            <Github 
-              size="50" 
-              title="Github"/>
-          </a>
-          <a 
-            target="_blank"
-            aria-label="Link to download my resume" 
-            rel="noopener noreferrer"
-            href={resume} 
-            download>
-            <Paperclip 
-              size="50" 
-              title="Resume"/>
-          </a>
+          <Tooltip 
+            content="Email me!" 
+            direction="down" 
+            color="#fff"
+            background="#000">
+            <a 
+              target="_blank"
+              aria-label="Link to my email" 
+              rel="noopener noreferrer"
+              href="mailto:firth.benjamin.a@gmail.com">
+              <EmailOutline 
+                size="50" 
+                title="Email"/>
+            </a>
+          </Tooltip>
+          <Tooltip 
+            content="Go to my LinkedIn!" 
+            direction="down" 
+            color="#fff"
+            background="#000">
+            <a 
+              target="_blank"
+              aria-label="Link to my LinkedIn profile" 
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/ben-firth">
+              <LinkedinSquare 
+                size="50" 
+                title="LinkedIn"/>
+            </a>
+          </Tooltip>
+          <Tooltip 
+            content="Go to my Github!" 
+            direction="down" 
+            color="#fff"
+            background="#000">
+            <a 
+              target="_blank"
+              aria-label="Link to my Github" 
+              rel="noopener noreferrer"
+              href="https://github.com/benjamin-firth">
+              <Github 
+                size="50" 
+                title="Github"/>
+            </a>
+          </Tooltip>
+          <Tooltip 
+            content="Download my resume!" 
+            direction="down" 
+            color="#fff"
+            background="#000">
+            <a 
+              target="_blank"
+              aria-label="Link to download my resume" 
+              rel="noopener noreferrer"
+              href={resume} 
+              download>
+              <Paperclip 
+                size="50" 
+                title="Resume"/>
+            </a>
+          </Tooltip>
         </div>
       </StyledLowerContent>
       {!hasScrolled ? <StyledScroll /> : <StyledSpaceHolder />}
@@ -88,6 +113,11 @@ const StyledLowerContent = styled.div`
     color: black;
     cursor: pointer;
     text-decoration: none;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
   }
 
   @media (max-width: 1200px) {

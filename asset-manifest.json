@@ -1,28 +1,29 @@
 {
   "files": {
     "main.css": "/professional-website/static/css/main.958cc51c.chunk.css",
-    "main.js": "/professional-website/static/js/main.7761a87e.chunk.js",
-    "main.js.map": "/professional-website/static/js/main.7761a87e.chunk.js.map",
+    "main.js": "/professional-website/static/js/main.6c1e84b4.chunk.js",
+    "main.js.map": "/professional-website/static/js/main.6c1e84b4.chunk.js.map",
     "runtime-main.js": "/professional-website/static/js/runtime-main.f48e11ee.js",
     "runtime-main.js.map": "/professional-website/static/js/runtime-main.f48e11ee.js.map",
-    "static/js/2.70893d3b.chunk.js": "/professional-website/static/js/2.70893d3b.chunk.js",
-    "static/js/2.70893d3b.chunk.js.map": "/professional-website/static/js/2.70893d3b.chunk.js.map",
+    "static/js/2.56d0f07f.chunk.js": "/professional-website/static/js/2.56d0f07f.chunk.js",
+    "static/js/2.56d0f07f.chunk.js.map": "/professional-website/static/js/2.56d0f07f.chunk.js.map",
     "index.html": "/professional-website/index.html",
-    "precache-manifest.8dc9b88038516cb03a2902c53619ee93.js": "/professional-website/precache-manifest.8dc9b88038516cb03a2902c53619ee93.js",
+    "precache-manifest.1213aa87e8d575339be301091a82b403.js": "/professional-website/precache-manifest.1213aa87e8d575339be301091a82b403.js",
     "service-worker.js": "/professional-website/service-worker.js",
     "static/css/main.958cc51c.chunk.css.map": "/professional-website/static/css/main.958cc51c.chunk.css.map",
-    "static/js/2.70893d3b.chunk.js.LICENSE.txt": "/professional-website/static/js/2.70893d3b.chunk.js.LICENSE.txt",
+    "static/js/2.56d0f07f.chunk.js.LICENSE.txt": "/professional-website/static/js/2.56d0f07f.chunk.js.LICENSE.txt",
     "static/media/BenjaminFirth_DevResume.pdf": "/professional-website/static/media/BenjaminFirth_DevResume.b3cb6921.pdf",
     "static/media/Mt_Rainier_Trails.jpg": "/professional-website/static/media/Mt_Rainier_Trails.a24bf433.jpg",
     "static/media/iCan2ScreenShot.png": "/professional-website/static/media/iCan2ScreenShot.4714a5a2.png",
+    "static/media/mountain-background-mobile.jpg": "/professional-website/static/media/mountain-background-mobile.22a3ecb9.jpg",
     "static/media/mountain-background.jpg": "/professional-website/static/media/mountain-background.f7a25282.jpg",
     "static/media/palettePickerScreenShot.png": "/professional-website/static/media/palettePickerScreenShot.17adc748.png",
     "static/media/snackMackScreenShot.png": "/professional-website/static/media/snackMackScreenShot.a28244ae.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f48e11ee.js",
-    "static/js/2.70893d3b.chunk.js",
+    "static/js/2.56d0f07f.chunk.js",
     "static/css/main.958cc51c.chunk.css",
-    "static/js/main.7761a87e.chunk.js"
+    "static/js/main.6c1e84b4.chunk.js"
   ]
 }

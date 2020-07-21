@@ -6,8 +6,8 @@ import { LinkedinSquare } from '@styled-icons/boxicons-logos/LinkedinSquare';
 import { Github } from '@styled-icons/boxicons-logos/Github';
 import { Paperclip } from '@styled-icons/foundation/Paperclip';
 
-
 import backgroundImage from '../../ui/images/mountain-background.jpg';
+import mobileBackgroundImage from '../../ui/images/mountain-background-mobile.jpg';
 import resume from '../../ui/images/BenjaminFirth_DevResume.pdf';
 
 
@@ -195,6 +195,10 @@ const StyledIntro = styled.section`
     p {
       font-size: 1em;
     }
+  }
+
+  @media (max-width: 500px) {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 25%), url(${mobileBackgroundImage});
   }
 
   @media (max-width: 330px) {

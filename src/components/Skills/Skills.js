@@ -26,7 +26,7 @@ const Skills = () => {
           <li>Agile</li>
         </StyledUL>
         <StyledUL>
-          <li>Git Workflow</li>
+          <li>Salesforce LWC</li>
           <li>GIS</li>
           <li>Styled-Components</li>
           <li>E-Commerce</li>

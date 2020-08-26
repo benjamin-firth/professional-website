@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Intro from '../Intro/Intro';
+import Navbar from '../Navbar/Navbar';
 import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
 import Experience from '../Experience/Experience';
@@ -15,7 +16,7 @@ const App = () => {
 
   return (
     <StyledApp>
-      {/* <Navbar /> */}
+      <Navbar />
       <section>
         <Intro />
         <Projects />

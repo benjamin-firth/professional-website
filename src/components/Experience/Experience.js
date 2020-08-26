@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Experience = () => {
   return (
-    <StyledExperiences>
+    <StyledExperiences id="experience">
       <h2>EXPERIENCE</h2>
       <StyledExperience>
         <h3>Software Curriculum Developer / Kode With Klossy</h3>

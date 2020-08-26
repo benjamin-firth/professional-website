@@ -16,7 +16,7 @@ const Projects = name => {
   };
 
   return (
-    <StyledProjects>
+    <StyledProjects id="projects">
       <h2>PROJECTS</h2>
       <StyledProjectContainer>
         <a 

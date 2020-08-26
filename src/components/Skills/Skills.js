@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Skills = () => {
   return (
-    <StyledSkills>
+    <StyledSkills id="skills">
       <h2>SKILLS</h2>
       {/* MAP OVER ARRAY OF SKILLS INSTEAD OF WRITING ALL OUT */}
       <StyledSkillContainer>

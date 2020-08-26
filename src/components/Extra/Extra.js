@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Extra = () => {
   return (
-    <StyledExtra>
+    <StyledExtra id="extra">
       <h2>FUN EXTRA INFORMATION!</h2>
       <ul>
         <li>I'm an avid rock climber. You can follow my adventures <a 

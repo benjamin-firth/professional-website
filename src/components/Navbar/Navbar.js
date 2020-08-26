@@ -15,6 +15,7 @@ const Navbar = () => {
       <StyledBarLink>
         <AnchorLink 
           class="link" 
+          offset="100"
           href="#skills">
           <h3>Skills</h3>
         </AnchorLink>

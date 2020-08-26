@@ -122,7 +122,7 @@ const StyledLowerContent = styled.div`
 
   @media (max-width: 1200px) {
     flex-direction: column;
-    height: 35%;
+    height: 40%;
   }
 
   @media (max-width: 700px) {

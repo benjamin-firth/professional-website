@@ -13,6 +13,7 @@ const Education = () => {
       <StyledSchool>
         <h3>Bachelor's in Geography / GIS</h3>
         <p className='school-title'>Western Washington University</p>
+        <p>At Western Washington University I spent 5 years developing my skills in Geography and GIS. This included mastering the ESRI ArcGIS and QGIS platforms, creating cartography for print, online web maps, Python query scripting, using the Adobe suite (largely Illustrator) for advanced cartography, remote sensing, and data analysis.</p>
       </StyledSchool>
     </StyledEducation>
   );

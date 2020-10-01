@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Education = () => {
   return (
     <StyledEducation id="education">
-      <h2>EDUCATION</h2>
+      <h2 data-aos="fade-up-left">EDUCATION</h2>
       <StyledSchool>
         <h3>Software Engineering Certification</h3>
         <p className='school-title'>Turing School of Software and Design</p>

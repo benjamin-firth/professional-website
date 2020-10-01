@@ -4,9 +4,9 @@ import styled from 'styled-components';
 const Skills = () => {
   return (
     <StyledSkills id="skills">
-      <h2>SKILLS</h2>
+      <h2 data-aos="fade-up-left">SKILLS</h2>
       {/* MAP OVER ARRAY OF SKILLS INSTEAD OF WRITING ALL OUT */}
-      <StyledSkillContainer>
+      <StyledSkillContainer data-aos="fade-left">
         <StyledUL>
           <li>Javascript</li>
           <li>React.js</li>

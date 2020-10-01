@@ -38,7 +38,7 @@ const Navbar = () => {
         <AnchorLink 
           class="link" 
           href="#extra">
-          <h3>Bonus Info</h3>
+          <h3>More</h3>
         </AnchorLink>
       </StyledBarLink>
     </StyledBar>
@@ -46,10 +46,10 @@ const Navbar = () => {
 };
 
 const StyledBar = styled.section`
-  background-color: #474747;
+  background-color: #1d3d63;
   display: flex;
-  justify-content: space-around;
-  padding: 2px;
+  justify-content: flex-end;
+  padding: 2px 40px 2px 2px;
   
   .link {
     color: #DEAD7D;
@@ -62,14 +62,14 @@ const StyledBarLink = styled.section`
   color: #DEAD7D;
   cursor: pointer;
   display: flex;
-  height: 28px;
+  height: 14px;
   justify-content: center;
-  margin: 5px 0px;
+  margin: 5px 15px;
   padding: 5px;
   transition: 0.4s ease;
 
   &:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 `;
 

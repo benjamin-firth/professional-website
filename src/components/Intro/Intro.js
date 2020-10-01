@@ -34,7 +34,7 @@ const Intro = () => {
       <h1>Welcome, my name is Benjamin Firth.</h1>
       <StyledLowerContent>
         <h2>I am a software engineer.</h2>
-        <p>I'm a motivated software engineer with solid knowledge and experience in Javascript, React, HTML/CSS/Sass, Node.js, geospatial and temporal data analysis, TDD, and UX/UI styling. Outside of work I'm an avid rock climber, and can frequently be found wandering around outside in search of a new climbing area. If you'd like to talk to me about web development, land conservation, or climbing don't hesitate to reach out! </p>
+        <p>I'm a motivated developer with solid knowledge and experience in Javascript, React, HTML/CSS/Sass, UX/UI focused development, Accessibility, TDD, and GIS. Outside of work I'm an avid rock climber, and can frequently be found wandering around outside in search of a new climbing area. If you'd like to talk to me about web development, land conservation, or climbing some weekend don't hesitate to reach out! </p>
         <div>
           <Tooltip 
             content="Email me!" 
@@ -108,11 +108,16 @@ const StyledLowerContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 100px;
 
   a {
     color: black;
     cursor: pointer;
     text-decoration: none;
+  }
+
+  p {
+    padding: 0px 35px;
   }
 
   div {
@@ -137,9 +142,9 @@ const StyledSpaceHolder = styled(ChevronsDown)`
 `;
 
 const StyledScroll = styled(ChevronsDown)`
-  animation: bounce 1s ease infinite;
+  animation: bounce 1.5s ease infinite;
   color: #074A9B;
-  height: 55px;
+  height: 40px;
   
   @keyframes bounce {
     50% {
@@ -170,7 +175,7 @@ const StyledIntro = styled.section`
   display: flex;
   flex-direction: column;
   height: 100vh;
-  justify-content: space-around;
+  justify-content: center;
   padding: 10px 75px 10px 75px;
 
   h1 {

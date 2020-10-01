@@ -108,6 +108,7 @@ const StyledLowerContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 100px;
 
   a {
     color: black;
@@ -141,9 +142,9 @@ const StyledSpaceHolder = styled(ChevronsDown)`
 `;
 
 const StyledScroll = styled(ChevronsDown)`
-  animation: bounce 1s ease infinite;
+  animation: bounce 1.5s ease infinite;
   color: #074A9B;
-  height: 55px;
+  height: 40px;
   
   @keyframes bounce {
     50% {
@@ -174,7 +175,7 @@ const StyledIntro = styled.section`
   display: flex;
   flex-direction: column;
   height: 100vh;
-  justify-content: space-around;
+  justify-content: center;
   padding: 10px 75px 10px 75px;
 
   h1 {

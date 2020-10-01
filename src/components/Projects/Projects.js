@@ -39,7 +39,7 @@ const Projects = name => {
           target="_blank"
           aria-label="snackMACK link"
           rel="noopener noreferrer"  
-          href="https://github.com/benjamin-firth/snackMACK">{createProj("snackMACK", snackMack)}
+          href="https://snack-mack.surge.sh/">{createProj("snackMACK", snackMack)}
         </a>
         <a 
           target="_blank"

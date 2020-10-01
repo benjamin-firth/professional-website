@@ -1,10 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import rainierMap from '../../ui/images/Mt_Rainier_Trails.jpg';
 import iCan2 from '../../ui/images/iCan2ScreenShot.png';
 import palettePicker from '../../ui/images/palettePickerScreenShot.png';
 import snackMack from '../../ui/images/snackMackScreenShot.png';
+
+AOS.init();
 
 const Projects = name => {
   const createProj = (name, imgUrl, className) => {
@@ -17,8 +21,8 @@ const Projects = name => {
 
   return (
     <StyledProjects id="projects">
-      <h2>PROJECTS</h2>
-      <StyledProjectContainer>
+      <h2 data-aos="fade-up-right">PROJECTS</h2>
+      <StyledProjectContainer data-aos="fade-right">
         <a 
           target="_blank"
           aria-label="Ican2 Mentorship App link"

@@ -27,13 +27,13 @@ const Projects = name => {
           target="_blank"
           aria-label="Ican2 Mentorship App link"
           rel="noopener noreferrer" 
-          href="https://github.com/benjamin-firth/ican2_FE">{createProj("Ican2", iCan2)}
+          href="https://ican2app.herokuapp.com/">{createProj("Ican2", iCan2)}
         </a>
         <a 
           target="_blank"
           aria-label="palettePicker link"
           rel="noopener noreferrer"  
-          href="https://github.com/benjamin-firth/colorPickerFrontend">{createProj("colorPicker", palettePicker)}
+          href="https://colorpickerfrontend.herokuapp.com/">{createProj("colorPicker", palettePicker)}
         </a>
         <a 
           target="_blank"

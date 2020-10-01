@@ -236,6 +236,12 @@ const StyledIntro = styled.section`
     background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 25%), url(${mobileBackgroundImage});
   }
 
+  @media (max-width: 470px) {
+    p {
+      display: none;
+    }
+  }
+
   @media (max-width: 330px) {
     h1 {
       font-size: 1.1em;

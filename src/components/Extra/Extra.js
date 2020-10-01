@@ -98,6 +98,17 @@ const StyleImageContainer = styled.div`
       width: 210px;
     }
   }
+
+  @media (max-width: 800px) {
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  @media (max-width: 470px) {
+    flex-flow: column;
+    height: auto;
+  }
 `;
 
 export default Extra;

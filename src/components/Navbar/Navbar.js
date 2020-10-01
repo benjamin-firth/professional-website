@@ -55,6 +55,10 @@ const StyledBar = styled.section`
     color: #DEAD7D;
     text-decoration: none;
   }
+
+  @media (max-width: 470px) {
+    flex-flow: column;
+  }
 `;
 
 const StyledBarLink = styled.section`

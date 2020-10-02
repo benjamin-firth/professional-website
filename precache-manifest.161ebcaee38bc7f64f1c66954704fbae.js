@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "14a60cf81268a09a727785946d344ee9",
+    "revision": "a3578362e0d5cff08f3eca1892d0d225",
     "url": "/professional-website/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/professional-website/static/css/2.eb43dee1.chunk.css"
   },
   {
-    "revision": "247f49dbf4c0e626ecb1",
+    "revision": "fce73efd6c8f09d10ce8",
     "url": "/professional-website/static/css/main.958cc51c.chunk.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/professional-website/static/js/2.d7a0d293.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "247f49dbf4c0e626ecb1",
-    "url": "/professional-website/static/js/main.3627c3b7.chunk.js"
+    "revision": "fce73efd6c8f09d10ce8",
+    "url": "/professional-website/static/js/main.804f3fc1.chunk.js"
   },
   {
     "revision": "d626b308fadb63a150c4",
     "url": "/professional-website/static/js/runtime-main.f48e11ee.js"
   },
   {
-    "revision": "5e12d451c346b61b8ffb28f9b5abbb51",
-    "url": "/professional-website/static/media/BenjaminFirth_DevResume.5e12d451.pdf"
+    "revision": "de710d4be0851ea7a25f5fdcc5073345",
+    "url": "/professional-website/static/media/BenjaminFirth_OnlinePdfResume.de710d4b.pdf"
   },
   {
     "revision": "a24bf43395b4f889e9b7e75fbc2e7d08",

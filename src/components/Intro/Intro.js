@@ -117,7 +117,8 @@ const StyledLowerContent = styled.div`
   }
 
   p {
-    padding: 0px 35px;
+    padding: 0px 85px;
+    text-align: center;
   }
 
   div {

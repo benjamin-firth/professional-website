@@ -9,7 +9,7 @@ import { Paperclip } from '@styled-icons/foundation/Paperclip';
 
 import backgroundImage from '../../ui/images/mountain-background.jpg';
 import mobileBackgroundImage from '../../ui/images/mountain-background-mobile.jpg';
-import resume from '../../ui/images/BenjaminFirth_DevResume.pdf';
+import resume from '../../ui/images/BenjaminFirth_OnlinePdfResume.pdf';
 
 
 const Intro = () => {

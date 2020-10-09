@@ -34,7 +34,7 @@ const Intro = () => {
       <h1>Welcome, my name is Benjamin Firth.</h1>
       <StyledLowerContent>
         <h2>I am a software engineer.</h2>
-        <p>I'm a motivated developer with solid knowledge and experience in Javascript, React, HTML/CSS/Sass, UX/UI focused development, Accessibility, TDD, and GIS. Outside of work I'm an avid rock climber, and can frequently be found wandering around outside in search of a new climbing area. If you'd like to talk to me about web development, land conservation, or climbing some weekend don't hesitate to reach out! </p>
+        <p>I'm a community-focused and motivated developer with solid knowledge and experience in Javascript, React, HTML/CSS/Sass, UX/UI focused development, Accessibility, TDD, and GIS. Outside of work I'm an avid rock climber, and can frequently be found wandering around outside in search of a new climbing area. If you'd like to talk to me about web development, land conservation, or climbing some weekend don't hesitate to reach out! </p>
         <div>
           <Tooltip 
             content="Email me!" 

@@ -6,6 +6,10 @@ const Experience = () => {
     <StyledExperiences id="experience">
       <h2 data-aos="fade-up-right">EXPERIENCE</h2>
       <StyledExperience data-aos="fade-right">
+        <h3>Software Engineer / Devvco Labs</h3>
+        <p>Developed and updated LeaderFactor Emotional Intelligence training software. Worked as part of a small, agile, and fast-paced team. I aided in software creation and maintenance in both the React client side and Node.js back-end.</p>
+      </StyledExperience>
+      <StyledExperience data-aos="fade-right">
         <h3>Software Curriculum Developer / Kode With Klossy</h3>
         <p>Worked as part of a team to develop and update the curriculum for the Kode With Klossy camps. Kode With Klossy is a program for young women ages 13-18 to learn software engineering. I worked on updating the current curriculum for both the Javascript and Swift focused camps, as well as creating solutions for instructors to reference.</p>
       </StyledExperience>

@@ -7,7 +7,7 @@ const Experience = () => {
       <h2 data-aos="fade-up-right">EXPERIENCE</h2>
       <StyledExperience data-aos="fade-right">
         <h3>Software Engineer / Devvco Labs</h3>
-        <p>Developed and updated LeaderFactor Emotional Intelligence training software. Worked as part of a small, agile, and fast-paced team. I aided in software creation and maintenance in both the React client side and Node.js back-end.</p>
+        <p>Developed and updated LeaderFactor's Emotional Intelligence training software suite. Worked as part of a small, agile, and fast-paced team. I aided in software creation and maintenance in both the React front-end and Node.js back-end.</p>
       </StyledExperience>
       <StyledExperience data-aos="fade-right">
         <h3>Software Curriculum Developer / Kode With Klossy</h3>

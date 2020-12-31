@@ -6,6 +6,10 @@ const Experience = () => {
     <StyledExperiences id="experience">
       <h2 data-aos="fade-up-right">EXPERIENCE</h2>
       <StyledExperience data-aos="fade-right">
+        <h3>Front-End Software Engineer / Lawnbot</h3>
+        <p>Largely work in the front-end, though as a small startup I often operate in more of a full-stack capacity. Some of my work has included fixing and improving UI/UX and creating a conversation flow creator for our bot interactions.</p>
+      </StyledExperience>
+      <StyledExperience data-aos="fade-right">
         <h3>Software Engineer / Devvco Labs</h3>
         <p>Developed and updated LeaderFactor's Emotional Intelligence training software suite. Worked as part of a small, agile, and fast-paced team. I aided in software creation and maintenance in both the React front-end and Node.js back-end.</p>
       </StyledExperience>
